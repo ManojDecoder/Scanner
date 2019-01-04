@@ -1,0 +1,23 @@
+<mvc:View controllerName="Scanner.Scanner.controller.Scanner" xmlns:html="http://www.w3.org/1999/xhtml" xmlns:mvc="sap.ui.core.mvc" displayBlock="true"
+	xmlns="sap.m">
+	<App id="idAppControl">
+		<Page title="Scanner Demo">
+			<content>
+				<HBox width="100%" id="__hbox0" justifyContent="SpaceBetween">
+					<items>
+						<Button text="Scan Barcode" width="150px" id="__button1" press="getBarcode">
+							<layoutData>
+								<FlexItemData alignSelf="Stretch" id="__data5"/>
+							</layoutData>
+						</Button>
+						<Button text="Scan Barcode OCR" width="150px" id="__button0" press="getOCR">
+							<layoutData>
+								<FlexItemData alignSelf="Stretch" id="__data4"/>
+							</layoutData>
+						</Button>
+					</items>
+				</HBox>
+			</content>
+		</Page>
+	</App>
+</mvc:View>
